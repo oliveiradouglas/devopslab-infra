@@ -13,6 +13,6 @@ provider "google" {
   credentials = file("~/gcpkey.json")
 
   project = "lab-devops-cloud-8aso-rm343576"
-  region  = "us-est1"
-  zone    = "us-est1-b"
+  region  = "us-east1"
+  zone    = "us-east1-b"
 }
